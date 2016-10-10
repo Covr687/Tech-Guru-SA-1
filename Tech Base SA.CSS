@@ -1,0 +1,256 @@
+body.home { 
+    
+    background-image: url(binary%202%20background.jpg);
+	
+
+    }
+body.services {
+    
+    
+    background-image:url(downfall%20binary.jpg)
+}
+
+body.remoteass{
+    background-image:url(binary%202%20background.jpg)}
+
+body.about{
+background-image:url(downfall%20binary.jpg)
+}
+body.contact{
+background-image:url(binary%202%20background.jpg)
+}
+	
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: crimson;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* ===========================
+   ======= Anchor style ====== 
+   =========================== */
+a {
+	outline: 0;
+	}
+
+a img {
+	border: 0px; 
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #CF5C3F;
+	padding: 0 60px;                 /*<<<NAV BAR SPACING*/
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background-color: #CF5C3F;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ===========================
+   ===== Main Navigation ===== 
+   =========================== */
+   
+.mainheader nav {
+	background: #666;
+	font-size: 20px;
+	height: 50px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center; 
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+}
+	
+
+.mainheader nav ul li {
+list-style-type: none; float:left; display:block; width:70; 
+    text-align: center;
+    margin:10px; padding:0px;
+}
+	
+}
+	
+.mainheader nav a:link, .mainheader nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.main header nav a:hover, .mainheader nav a:active,
+.main header nav .active a:link, .mainheader nav .active a:visited {
+	background: #CF5C3F;
+	color: #fff;
+	text-shadow: none
+}
+	
+.mainheader nav li a {
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+}
+
+.mainheader img {
+	width: 100%;    
+	height: auto;
+	margin: 3% 0;
+}
+
+/* ===========================
+   ======= Content Area ====== 
+   =========================== */
+
+.maincontent {
+    background-color: #FFF;
+    line-height: 95px;
+    opacity: 0.9;
+    text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;
+    padding-bottom: 23%;
+    
+}
+
+
+
+.content p {
+    background-color: #FFF;
+    font-size: 24px;
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;	
+
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+/* ===========================
+   ======== Sidebar ========== 
+   =========================== */
+
+
+
+/* ===========================
+   ========= Footer ========== 
+   =========================== */
+
+.mainfooter {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding-left: 0;
+	background-color: #666;
+	border-radius: 5px;
+	moz-border-radius: 5px;
+	webkit-border-radius: 5px;	
+	color: #FFF;	
+}
+
+.mainfooter p {
+	width: 91%;
+	margin: 2% auto;
+}
+
+/* ===========================
+   ====== LOGO ====== 
+   =========================== */
+
+.logo {
+    font-family: fantasy;
+    line-height: 50px;
+    color: crimson;
+    text-size: 100px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+/* ===========================
+   ====== Media Queries ====== 
+   =========================== */
+
+.menu-trigger{
+    
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    menu-triggger {
+        
+        display: block;
+        color: red;
+        background-color: aqua;
+        padding: 10px;
+        text-align: right;
+        font-size: 83%;
+        cursor: pointer;
+    }
+    
+    mainheader {
+        display: none;
+        
+    }
+    
+    nav-expand{
+        
+        display: block;
+    }
+    
+    mainheader ul li {
+        color: crimson;
+        float:none;
+        border-bottom: 2px solid #d5dce4;
+        
+    }
+    
+    
+    
+    @media only screen and (max-width: 480px) {
+        
+        .mainheader { float: left;
+        padding: -6px;
+        width: 94%;
+        height: 10px;
+	    line-height: 10px;
+	       margin: 0 auto -20px auto;
+	        text-align: center;
+            float: center;
+  }
+        h1 h2 h3 {
+            margin-top: 0 auto -3px;
+        }
+        
+        .topcontent {
+          line-height: -30px;
+              margin-top: -3%;
+        }
+        
+        .maincontent {
+            margin-top:0 auto -30px;
+            padding-top: -30px;
+            text-align: center;
+            
+        }
+    
+    
+    
+
